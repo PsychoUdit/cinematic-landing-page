@@ -1,33 +1,44 @@
 # cinematic-landing-page
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+A cinematic landing page for a digital studio. Dark theme, smooth
+scroll, cursor follower and lots of animations. Built with Next.js,
+Tailwind and shadcn/ui.
 
-## Built with v0
+This is one of my practice projects where I wanted to learn more
+animations and landing page design. The brand "AURELIA" is made up, I
+just needed a name for the page.
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+## Pages/Sections
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_rH4asTD30N3yTwb6t2NDZHeieTtM)
+- Hero with animated background
+- Showcase
+- Services
+- About
+- Process / how we work
+- Featured work
+- Testimonials
+- Contact CTA
 
-## Getting Started
+## Run
 
-First, run the development server:
-
-```bash
+```
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-## Learn More
+```
+npm run build
+npm start
+```
 
-To learn more, take a look at the following resources:
+## Notes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+- All the images in public/images are placeholders, I grabbed some
+  random ones for the design.
+- The contact email hello@aurelia.studio is fake, page doesn't have a
+  real form yet.
+- Testimonials are dummy text.

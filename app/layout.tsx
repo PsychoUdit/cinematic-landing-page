@@ -19,10 +19,9 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'AURELIA — Cinematic Digital Studio',
+  title: 'AURELIA - Cinematic Digital Studio',
   description:
     'AURELIA is a design and technology studio crafting immersive, cinematic digital experiences for ambitious brands.',
-  generator: 'v0.app',
 }
 
 export const viewport: Viewport = {
